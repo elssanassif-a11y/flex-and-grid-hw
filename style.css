@@ -1,0 +1,44 @@
+#container{
+    display: flex;
+    
+    gap: 20px;
+}
+#left{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#right{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#middle{ display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin-top: 20px;
+
+   }
+#blue{
+     width: 30px;
+    
+    height: 100px;
+    background-color: skyblue;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
